@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>CSS Visibility test</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #wrapper{
+            width: 700px;
+            margin: 0 auto;
+        }
+        body{
+            font-family: arial;
+        }
+       .absolute{
+           position:absolute;
+           border: 1px solid red;
+           width: 100px;
+           height: 100px;
+           left: 500px;
+       }
+       .relative{
+        position: relative;
+       }
+
+    </style>
+</head>
+<div id="wrapper">
+    <h2>Hello World!!</h2>
+    <section class="card absolute">
+        <p>Mango</p>
+    </section>
+    <section class="card">
+        <p>Apple</p>
+    </section>
+<!-- Result Safari It will read as per the DOM order not as per the CSS -->
+</div>
+</html>
