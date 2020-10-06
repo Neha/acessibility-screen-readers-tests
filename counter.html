@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <title>Counter test</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: arial;
+        }
+        #wrapper{
+            counter-reset: section;
+        }
+        h2::before {
+            counter-increment: section;
+            content: "Section " counter(section) ": ";
+            }
+    </style>
+</head>
+<div id="wrapper">
+    <h2>Car</h2>
+    <h2>Planes</h2>
+    <h2>Boats</h2>
+
+</div>
+</html>
+
+<!-- Taking the count as 4 and only reading 1 section rest only the content-->
