@@ -1,31 +1,28 @@
 <!DOCTYPE html>
-<head>
-    <title>Flex test</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        #wrapper{
-            width: 700px;
-            margin: 0 auto;
-            display: flex;
+<html lang="en">
+    <head>
+        <title>Flex test</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            #wrapper {
+                width: 700px;
+                margin: 0 auto;
+                display: flex;
 
-            /* flex-direction: row-reverse; */
-        }
-        body{
-            font-family: arial;
-        }
-      
-
-    </style>
-</head>
-<div id="wrapper">
-    <button>one</button>
-    <button>
-       two
-    </button>
-    <button>Footer</button>
-<!-- Result Safari do not read the Flex Order  -->
-</div>
+                /* flex-direction: row-reverse; */
+            }
+            body {
+                font-family: arial;
+            }
+        </style>
+    </head>
+    <div id="wrapper">
+        <button>one</button>
+        <button>two</button>
+        <button>Footer</button>
+        <!-- Result Safari do not read the Flex Order  -->
+    </div>
 </html>

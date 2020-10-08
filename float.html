@@ -1,40 +1,37 @@
 <!DOCTYPE html>
-<head>
-    <title>Flex test</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        #wrapper{
-            width: 700px;
-            margin: 0 auto;
-           
-        }
-        body{
-            font-family: arial;
-        }
-        button{
-            display: block;
-        }
-        .left{
-            float:left;
-        }
-        .right{
-            float: right
-        }   
-        .clear{
-            clear: both
-        }
-
-    </style>
-</head>
-<div id="wrapper">
-    <button class="right">one</button>
-    <button class="right">
-       two
-    </button>
-    <button class="left">Footer</button>
-<!-- Result Safari do not read the Float Order  -->
-</div>
+<html lang="en">
+    <head>
+        <title>Flex test</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            #wrapper {
+                width: 700px;
+                margin: 0 auto;
+            }
+            body {
+                font-family: arial;
+            }
+            button {
+                display: block;
+            }
+            .left {
+                float: left;
+            }
+            .right {
+                float: right;
+            }
+            .clear {
+                clear: both;
+            }
+        </style>
+    </head>
+    <div id="wrapper">
+        <button class="right">one</button>
+        <button class="right">two</button>
+        <button class="left">Footer</button>
+        <!-- Result Safari do not read the Float Order  -->
+    </div>
 </html>
