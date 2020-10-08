@@ -41,6 +41,6 @@ learn how to use screen reader and its behaviour.
  | **display** | NA | NA | NA | NA | NA |
  | **float** | NA | NA | NA | NA | NA |
  | **flex** |  NA | NA | NA | NA | NA |
- | **position** | NA | NA | NA | NA | NA |
+ | **position** | NA | NA | NA | NA | NAA |
 
 ## Open for contribution
