@@ -23,7 +23,7 @@ learn how to use screen reader and its behaviour.
 ## Screen Reader, OS, and browser combination
 
   | Screen Reader | Mozilla | Chrome | Edge | Safari |
-  | ------ | ------ | ------ | ------ | ------ | ------ |
+  | ------ | ------ | ------ | ------ | ------ | 
   | **Win + Voice Over** | NA | NA | NA | NA | NA |
   | **Win + NVDA** |  NA | NA | NA | NA | NA |
   | **Win + JAWS** | NA | NA | NA | NA | NA |
@@ -34,13 +34,13 @@ learn how to use screen reader and its behaviour.
 
 ## Results
  | HTML/CSS Properties | Win + Voice Over | Win + NVDA | Win + JAWS | Win + TalkBack | Mac + Voice Over | Mac + NVDA |  Mac + JAWS |
-  | ------ | ------ | ------ | ------ | ------ | ------ |  ------ | ------ | ------ | ------ | ------ | ------ |
-  | **line-through** | NA | NA | NA | NA | NA |
-  | **font-weight** |  NA | NA | NA | NA | NA |
-  | **sub/sup** | NA | NA | NA | NA | NA |
-  | **display** | NA | NA | NA | NA | NA |
-  | **float** | NA | NA | NA | NA | NA |
-  | **flex** |  NA | NA | NA | NA | NA |
-  | **position** | NA | NA | NA | NA | NA |
+ | ------ | ------ |  ------ | ------ | ------ | ------ | ------ | ------ |
+ | **line-through** | NA | NA | NA | NA | NA |
+ | **font-weight** |  NA | NA | NA | NA | NA |
+ | **sub/sup** | NA | NA | NA | NA | NA |
+ | **display** | NA | NA | NA | NA | NA |
+ | **float** | NA | NA | NA | NA | NA |
+ | **flex** |  NA | NA | NA | NA | NA |
+ | **position** | NA | NA | NA | NA | NAA |
 
 ## Open for contribution
