@@ -28,19 +28,24 @@ learn how to use screen reader and its behaviour.
   | **Win + NVDA** |  NA | NA | NA | NA | NA |
   | **Win + JAWS** | NA | NA | NA | NA | NA |
   | **Win + TalkBack** | NA | NA | NA | NA | NA |
-  | **Mac + Voice Over** | NA | NA | NA | NA | NA |
+  | **Mac + Voice Over** | NA | NA | NA | NA | YES |
   | **Mac + NVDA** |  NA | NA | NA | NA | NA |
   | **Mac + JAWS** | NA | NA | NA | NA | NA |
 
 ## Results
  | HTML/CSS Properties | Win + Voice Over | Win + NVDA | Win + JAWS | Win + TalkBack | Mac + Voice Over | Mac + NVDA |  Mac + JAWS |
  | ------ | ------ |  ------ | ------ | ------ | ------ | ------ | ------ |
- | **line-through** | NA | NA | NA | NA | NA |
- | **font-weight** |  NA | NA | NA | NA | NA |
- | **sub/sup** | NA | NA | NA | NA | NA |
- | **display** | NA | NA | NA | NA | NA |
- | **float** | NA | NA | NA | NA | NA |
- | **flex** |  NA | NA | NA | NA | NA |
- | **position** | NA | NA | NA | NA | NAA |
+ | **line-through** | NA | NA | NA | NA | Screen Reader will not identify line-through | NA | NA |
+ | **font-weight** |  NA | NA | NA | NA | Screen Reader will not identify line-through | NA | NA |
+ | **sub/sup** | NA | NA | NA | NA | Screen Reader will not identify line-through | NA | NA |
+ | **display** | NA | NA | NA | NA | NA | NA | NA |
+ | **float** | NA | NA | NA | NA | NA | NA | NA |
+ | **flex** |  NA | NA | NA | NA | NA | NA | NA |
+ | **position** | NA | NA | NA | NA | NA | NA | NA |
+ | **font-size** | NA | NA | NA | NA | Screen Reader will still read the content of font-size:0  | NA | NA |
+ | **Counter** | NA | NA | NA | NA | NA | NA | NA | NA |
+ | **Currency** | NA | NA | NA | NA | NA | N | NA | NA |
+ | **list-style** | NA | NA | NA | NA | Screen Reader will identify the OL and UL. For list-item roman it won't read as 1,2,3 but say 'i,i-i,i-i-i  | NA | NA |
+ | **Nested list** | NA | NA | NA | NA | Screen Reader will not identify the nested list | NA | NA |
 
 ## Open for contribution
