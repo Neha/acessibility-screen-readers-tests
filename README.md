@@ -50,7 +50,7 @@ learn how to use screen reader and its behaviour.
  | **counter** | NA | NA | NA | NA | Screen Reader will not identify the Counter | NA | NA |
  | **pseudo** | NA | NA | NA | NA | Screen Reader will read the content from pseudo | NA | NA |
  | **visibility** | NA | NA | NA | NA | Screen Reader will read the content from pseudo | NA | NA |
- | **overflow** | NA | NA | NA | NA | Screen Reader will read the content from pseudo | NA | NA |
+ | **overflow** | NA | NA | NA | NA | Screen Reader will read the content from pseudo | NA | NA | NA |
 
 
 ## Open for contribution
