@@ -41,11 +41,16 @@ learn how to use screen reader and its behaviour.
  | **display** | NA | NA | NA | NA | NA | NA | NA |
  | **float** | NA | NA | NA | NA | NA | NA | NA |
  | **flex** |  NA | NA | NA | NA | NA | NA | NA |
+ | **flex-layout** |  NA | NA | NA | NA | NA | NA | NA |
  | **position** | NA | NA | NA | NA | NA | NA | NA |
  | **font-size** | NA | NA | NA | NA | Screen Reader will still read the content of font-size:0  | NA | NA |
- | **Counter** | NA | NA | NA | NA | NA | NA | NA | NA |
- | **Currency** | NA | NA | NA | NA | NA | N | NA | NA |
+ | **currency** | NA | NA | NA | NA | Screen reader will read the INR, USD. As well as, it will respect $ currency icons too. | NA | NA |
  | **list-style** | NA | NA | NA | NA | Screen Reader will identify the OL and UL. For list-item roman it won't read as 1,2,3 but say 'i,i-i,i-i-i  | NA | NA |
- | **Nested list** | NA | NA | NA | NA | Screen Reader will not identify the nested list | NA | NA |
+ | **nested list** | NA | NA | NA | NA | Screen Reader will not identify the nested list | NA | NA |
+ | **counter** | NA | NA | NA | NA | Screen Reader will not identify the Counter | NA | NA |
+ | **pseudo** | NA | NA | NA | NA | Screen Reader will read the content from pseudo | NA | NA |
+ | **visibility** | NA | NA | NA | NA | Screen Reader will read the content from pseudo | NA | NA |
+ | **overflow** | NA | NA | NA | NA | Screen Reader will read the content from pseudo | NA | NA |
+
 
 ## Open for contribution
